@@ -1,0 +1,90 @@
+h1{
+    padding-top: 40px;
+    color: aqua;
+    text-align: center;
+    height: 120px;
+}
+body{
+    background-color: beige;
+    padding: 20px;
+}
+
+#header{
+    padding: 0px;
+    margin: 0%;
+    background-color: black;
+}
+.aboutme{
+    padding: 0px;
+    background-color: aquamarine;
+    color: brown;
+}
+a:hover{
+    color: crimson;
+}
+.mystyle{
+    background-color: blue;
+    color: aliceblue;
+}
+#link:hover{
+    background-color: bisque;
+    animation: alternate;
+}
+#link{
+    background-color: chartreuse;
+    float: right;
+}
+.lists{
+    color: blueviolet;
+    text-align: center;
+    
+}
+#coursetable{
+    text-align: center;
+    table-layout: fixed;
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#coursetable,th,td{
+    border-collapse: collapse;
+    border-color: black;
+    border: 1px solid;
+    
+    width: 100%;
+    height: 30px;
+}
+#coursetable :hover{
+    width: 200%
+}
+.music{
+    text-align: center;
+    background-color: rgb(2, 229, 104);
+}
+.sample{
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#infotable{
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: black;
+    outline-style:dotted;
+}
+#ratul{
+    height: 100px;
+    width: 100px;
+    opacity: 80%;
+}
+#safi{
+    height: 200px;
+    width: 120px;
+    
+}
+#footer{
+    text-align:left;
+    color: brown;
+}
+.breakline{
+    line-break: auto;
+}

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,600;0,700;1,900&family=Satisfy&family=Secular+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes example1 {
+    0% {
+        color: #fff;
+    }
+
+    25% {
+        color: rgb(255, 255, 0);
+    }
+
+    50% {
+        color: rgb(0, 0, 0);
+    }
+
+    100% {
+        color: cyan;
+    }
+}
+
+@keyframes example2 {
+    0% {
+        color: cyan;
+    }
+
+    25% {
+        color: rgb(0, 0, 0);
+    }
+
+    50% {
+        color: yellow;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
+
+@keyframes example3 {
+    0% {
+        color: rgb(255, 217, 0);
+
+    }
+
+    25% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(3, 2, 2);
+    }
+
+    100% {
+        color: rgb(250, 0, 0);
+    }
+}
+
+body {
+    background-color: rgb(51, 42, 92);
+}
+
+.breakline {
+    line-break: auto;
+}
+
+#logoimg {
+    border-radius: 50%;
+}
+
+.simple_para {
+    font-size: 20px;
+}
+
+.simple_para2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff
+}
+
+.color1 {
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.color2 {
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.color3 {
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: antiquewhite;
+    width: 100%;
+    height: auto;
+    padding-top: 180px;
+    min-height: 750px;
+    background-image: url("home.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Ratul_img {
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+}
+
+#Ratul_img:hover {
+    box-shadow: 0 0 3px 2px rgb(246, 246, 246);
+
+}
+
+.about_me {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    min-height: 750px;
+    background-image: url("home.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area_of_interest {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    min-height: 750px;
+    background-image: url("home.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.education {
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    padding-top: 120px;
+    min-height: 750px;
+    background-image: url("home.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Co_activities {
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    padding-top: 120px;
+    min-height: 750px;
+    background-image: url("home.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.footerdiv {
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}

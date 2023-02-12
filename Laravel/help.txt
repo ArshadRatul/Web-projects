@@ -1,0 +1,11 @@
+1.Send help message with one click button to saved emergency contact
+2.Send help automated call with one click to saved emergency contact
+3.See the map
+4.See the locations of police stations of the selected area
+5.Can communicate among the saved numbers
+6.Send complains regarding app
+7.See nearby hospitals or police stations in current location
+8.See all the hospitals  in the map 
+9.See the name and contact of the head of the selected police stations and hospitals
+10.Updated tips about awareness or safety for women
+11.Can order for sanitary napkins whenever needed 
